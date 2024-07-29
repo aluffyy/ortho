@@ -1,6 +1,6 @@
 package com.aluffyyy.ortho.domain.model
 
-class Meaning {
+class Meaning (
     val definition: Definition,
     val partOfSpeech: String
-}
+)

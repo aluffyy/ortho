@@ -1,6 +1,6 @@
 package com.aluffyyy.ortho.domain.model
 
-class Definition {
+class Definition (
     val definition: String,
     val example: String
-}
+)
