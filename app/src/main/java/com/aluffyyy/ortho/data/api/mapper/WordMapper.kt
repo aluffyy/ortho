@@ -9,7 +9,7 @@ import com.aluffyyy.ortho.domain.model.Meaning
 import com.aluffyyy.ortho.domain.model.SourceUrls
 import com.aluffyyy.ortho.domain.model.WordItem
 
-fun WordItemDto.toWordItem() = WordItem (
+fun WordItemDto.toWordItem() = WordItem(
     word = word ?: "",
     meaning = meaning?.map {
         it.toMeaning()
@@ -19,7 +19,9 @@ fun WordItemDto.toWordItem() = WordItem (
 )
 
 fun MeaningDto.toMeaning() = Meaning(
-    definition = definitionDtoToDefinition(definitions?.get(0)),
+    definition = definitionDtoToDefinition(
+        definitions?.get(0)
+    ),
     partOfSpeech = partOfSpeech ?: ""
 )
 
@@ -27,9 +29,10 @@ fun MeaningDto.toMeaning() = Meaning(
 fun definitionDtoToDefinition(
     definitionDto: DefinitionDto?
 ) = Definition(
-    definition = definitionDto?.definition?: "",
+    definition = definitionDto?.definition ?: "",
     example = definitionDto?.example ?: ""
 )
+
 fun SourceUrlDto.toSourceUrl(): SourceUrls {
     return SourceUrls(
         sourceUrls = this.sourceUrls ?: emptyList() // Handle potential nulls

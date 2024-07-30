@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ortho</string>
+    <string name="can_t_get_result" />
 </resources>

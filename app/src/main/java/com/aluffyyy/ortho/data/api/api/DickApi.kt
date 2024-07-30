@@ -1,4 +1,4 @@
-package com.aluffyyy.ortho.data.api
+package com.aluffyyy.ortho.data.api.api
 
 import com.aluffyyy.ortho.data.api.dto.WordResultDto
 import retrofit2.http.GET

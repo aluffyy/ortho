@@ -1,6 +1,6 @@
 package com.aluffyyy.ortho.di
 
-import com.aluffyyy.ortho.data.api.DickApi
+import com.aluffyyy.ortho.data.api.api.DickApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
