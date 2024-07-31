@@ -11,7 +11,7 @@ import com.aluffyyy.ortho.domain.model.WordItem
 
 fun WordItemDto.toWordItem() = WordItem(
     word = word ?: "",
-    meaning = meaning?.map {
+    meanings = meanings?.map {
         it.toMeaning()
     } ?: emptyList(),
     phonetic = phonetic ?: "",
