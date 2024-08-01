@@ -20,7 +20,7 @@ Ortho is a modern, beautifully designed dictionary app built with Kotlin and Jet
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/ortho.git
+    git clone https://github.com/aluffyy/ortho.git
     ```
 2. Open the project in Android Studio.
 3. Build the project to download dependencies and sync the project.
