@@ -12,9 +12,9 @@ Ortho is a modern, beautifully designed dictionary app built with Kotlin and Jet
 
 ## Screenshots
 
-![Search Screen](app/src/main/assets/screenshots/Screenshot_20240801_014146_ortho.jpg)
-![Search Screen](app/src/main/assets/screenshots/Screenshot_20240801_014730_ortho.jpg)
-![Search Screen](app/src/main/assets/screenshots/Screenshot_20240801_014829_ortho.jpg)
+| Search Screen 1 | Search Screen 2 | Search Screen 3 |
+|:---------------:|:---------------:|:---------------:|
+| ![Search Screen](app/src/main/assets/screenshots/Screenshot_20240801_014146_ortho.jpg) | ![Search Screen](app/src/main/assets/screenshots/Screenshot_20240801_014730_ortho.jpg) | ![Search Screen](app/src/main/assets/screenshots/Screenshot_20240801_014829_ortho.jpg) |
 
 ## Installation
 
@@ -47,9 +47,18 @@ The app follows the MVVM (Model-View-ViewModel) architecture pattern. This ensur
 Contributions are welcome! Please fork this repository and submit pull requests for any enhancements or bug fixes.
 
 1. Fork the repository.
-2. Create a new branch  ```git checkout -b feature/your-feature```
-3. Commit your changes  ```git commit -m 'Add some feature'```
-4. Push to the branch  ```git push origin feature/your-feature```
+2. Create a new branch:
+    ```sh
+    git checkout -b feature/your-feature
+    ```
+3. Commit your changes:
+    ```sh
+    git commit -m 'Add some feature'
+    ```
+4. Push to the branch:
+    ```sh
+    git push origin feature/your-feature
+    ```
 5. Open a pull request.
 
 ## License
@@ -58,9 +67,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-If you have any questions or feedback, feel free to reach out to me at  
-    ```sh
-        mi.aliifff@example.com
+If you have any questions or feedback, feel free to reach out to me at:
+    ```
+    mi.aliifff@gmail.com
     ```
 
 ---
+
