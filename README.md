@@ -12,7 +12,7 @@ Ortho is a modern, beautifully designed dictionary app built with Kotlin and Jet
 
 ## Screenshots
 
-| Search Screen 1 | Search Screen 2 | Search Screen 3 |
+| hasDarkMode | hasDarkMode | hasDarkMode |
 |:---------------:|:---------------:|:---------------:|
 | ![Search Screen](app/src/main/assets/screenshots/Screenshot_20240801_014146_ortho.jpg) | ![Search Screen](app/src/main/assets/screenshots/Screenshot_20240801_014730_ortho.jpg) | ![Search Screen](app/src/main/assets/screenshots/Screenshot_20240801_014829_ortho.jpg) |
 
